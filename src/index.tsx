@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom";
 import { createStore, applyMiddleware, compose } from "redux";
 import { createEpicMiddleware } from "redux-observable";
 import { Provider } from "react-redux";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import App from "./components/App.connect";
 
@@ -43,8 +44,10 @@ function configureStore(initialState?: RootState) {
 const store = configureStore();
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <HashRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </HashRouter>,
   document.getElementById("root")
 );

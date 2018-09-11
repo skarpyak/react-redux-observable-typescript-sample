@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 import Map from "./Map.connect";
 import Weather from "./Weather.connect";
@@ -15,6 +16,8 @@ export default class App extends React.Component<AppProps, {}> {
         <div className="header">
           <h1>Weather Map</h1>
           <small>(This sample application = React + redux-observable + TypeScript)</small>
+          <Link to="/PageA">Test1</Link>
+          <Link to="/pageB">Test2</Link>
         </div>
         <div className="main">
           <Weather />
