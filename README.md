@@ -1,4 +1,4 @@
-# react-redux-observable-typescript-sample
+# react-redux-observable-typescript-starter
 
 A sample application for React + redux-observable + TypeScript
 
