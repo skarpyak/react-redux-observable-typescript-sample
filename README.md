@@ -10,7 +10,7 @@ A sample application for React + redux-observable + TypeScript
 
 ## Blog
 
-- [React \+ Redux \+ redux\-observable \+ TypeScriptの実践的サンプル \| I am mitsuruog](https://blog.mitsuruog.info/2018/03/react-redux-observable-typescript)
+- [React \+ Redux \+ redux\-observable \+ TypeScrip](https://blog.mitsuruog.info/2018/03/react-redux-observable-typescript)
 
 ## Installing / Getting started
    
